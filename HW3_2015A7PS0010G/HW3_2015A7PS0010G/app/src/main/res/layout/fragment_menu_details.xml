@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuDetails">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:text="@string/sensor_detail"
+        android:textSize="28sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/sensor_detail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:text="@string/plot_detail"
+        android:textSize="28sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/sensor_detail"/>
+</RelativeLayout>
